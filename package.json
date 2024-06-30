@@ -1,0 +1,26 @@
+{
+  "name": "express-res-status-handler",
+  "version": "1.0.1",
+  "description": "Middleware for status handler",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agricreation/npm-res-status-handler.git"
+  },
+  "keywords": [
+    "express",
+    "status-handler"
+  ],
+  "author": "Moovendhan v",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agricreation/npm-res-status-handler/issues"
+  },
+  "homepage": "https://github.com/agricreation/npm-res-status-handler#readme"
+}
