@@ -88,4 +88,41 @@ app.listen(PORT, () => {
 
 ```
 
+## ```Default Response Message```
 
+```bash
+
+/ Example route using existing keys
+app.get('/success', (req, res) => {
+  res.success({ message: 'Config here done' });
+});
+
+app.get('/custom', (req, res) => {
+  res.custom({ message: 'My custom response messages' });
+});
+
+app.get('/forbidden', (req, res) => {
+  res.forbidden({ message: 'Access forbidden' });
+});
+
+app.get('/unauthorized', (req, res) => {
+  res.unauthorized({ message: 'Unauthorized access' });
+});
+
+app.get('/not-found', (req, res) => {
+  res.notFound({ message: 'Resource not found' });
+});
+
+app.get('/internal-error', (req, res) => {
+  res.internalServerError({ message: 'Internal server error' });
+});
+
+app.get('/redirect', (req, res) => {
+  res.redirect({ message: 'Redirecting', location: 'https://example.com' });
+});
+
+app.get('/timeout', (req, res) => {
+  res.timeout({ message: 'Request timeout' });
+});
+
+```
