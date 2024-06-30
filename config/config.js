@@ -27,14 +27,6 @@ const responseConfig = {
     response: null,
     count: 0,
   },
-  redirect: {
-    error: false,
-    code: 302,
-    message: "redirect",
-    response: null,
-    count: 0,
-    location: null,
-  },
   timeout: {
     error: true,
     code: 408,

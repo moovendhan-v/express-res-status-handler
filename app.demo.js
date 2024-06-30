@@ -17,7 +17,7 @@ app.use(customResponsesMiddleware([basicConfig, responseConfig]));
 
 // Example route using existing keys
 app.get('/success', (req, res) => {
-  res.success({ message: 'Config herer done' });
+  res.success({ message: 'Config hsserer done' });
 });
 
 // Example route using 'custom' configuration

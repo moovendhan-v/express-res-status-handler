@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "express-res-status-handler",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Middleware for status handler",
   "main": "app.js",
   "directories": {

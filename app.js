@@ -16,9 +16,6 @@ const customResponsesMiddleware = (configs = []) => (req, res, next) => {
   Object.keys(mergedConfig).forEach((key) => {
     res[key] = (overrides = {}) => {
       const responseConfig = { ...mergedConfig[key], ...overrides };
-      if (key === 'redirect') {
-        return res.redirect(responseConfig.code, responseConfig.location || '/');
-      }
       res.status(responseConfig.code).json(responseConfig);
     };
   });
