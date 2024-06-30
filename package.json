@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "express-res-status-handler",
   "version": "1.0.3",
   "description": "Middleware for status handler",
